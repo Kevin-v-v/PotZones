@@ -1,0 +1,5 @@
+Config:
+    blocksFromCenterToBorder: 2
+    updateTimeInZone: 10
+    effectDuration: 60
+    timeToApply: 10

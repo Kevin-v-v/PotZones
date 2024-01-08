@@ -1,0 +1,58 @@
+Zones:
+    velocidad:
+        world: Overworld
+        centerCoords:
+            x: 12
+            y: 12
+            z: 12
+        startCoords:
+            x: 10
+            y: 0
+            z: 10
+        endCoords:
+            x: 15
+            y: 256
+            z: 15
+        effect:
+            name: SPEED
+            duration: 40
+            amplifier: 1
+            timeToApply: 10
+    lentitud:
+        world: Overworld
+        centerCoords:
+            x: 12
+            y: 12
+            z: 12
+        startCoords:
+            x: 20
+            y: 0
+            z: 20
+        endCoords:
+            x: 25
+            y: 256
+            z: 25
+        effect:
+            name: SLOW
+            duration: 20
+            amplifier: 1
+            timeToApply: 10
+    veneno:
+        world: Nether
+        centerCoords:
+            x: 12
+            y: 12
+            z: 12
+        startCoords:
+            x: 30
+            y: 0
+            z: 30
+        endCoords:
+            x: 35
+            y: 256
+            z: 35
+        effect:
+            name: POISON
+            duration: 30
+            amplifier: 1
+            timeToApply: 10

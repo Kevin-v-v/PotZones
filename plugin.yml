@@ -1,0 +1,7 @@
+main: me.potionzones.PotionZones
+version: 1.0.0
+name: PotZones
+
+commands:
+  potzone:
+    description: lorem ipsum dolor atmet
