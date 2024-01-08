@@ -16,7 +16,7 @@ Se pueden configurar 4 parámetros por defecto para generar las zonas.
 - timeToApply: tiempo (en segundos) que debe permanecer el jugador en la zona para aplicar el efecto
 
 ### Comandos
-#### Reload
+#### reload
 /potzone reload 
 
 Recarga el archivo de configuración y zonas.
@@ -41,3 +41,8 @@ Se usa estando dentro de una o mas zonas. Elimina las zonas correspondientes a l
 /potzone zoneinfo
 
 Se usa estando dentro de una o mas zonas. Da información general de la zona.
+
+#### help
+/potzone help
+
+Muestra ayuda.
