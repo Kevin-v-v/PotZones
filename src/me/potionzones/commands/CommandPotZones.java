@@ -65,13 +65,7 @@ public class CommandPotZones implements CommandExecutor{
 				}
 				
 			}else {
-				FileConfiguration config = plugin.getConfig();
-				String path = "Config.prueba";
-				if(config.getString(path).equals("true")) {
-					String textoPath = "Config.mensaje";
-					jugador.sendMessage(plugin.nombre + " " + config.getString(textoPath));
-
-				}
+			
 				jugador.sendMessage(plugin.nombre + " Usa /potzone help para obtener ayuda");
 				
 			}
